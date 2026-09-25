@@ -1,6 +1,6 @@
 #!/bin/bash
 
-myVar="tahmid ishrak"
+# myVar="tahmid ishrak"
 
 # echo "Length of this variable: ${#myVar}"
 
@@ -10,7 +10,13 @@ myVar="tahmid ishrak"
 # echo "All Lower case value have: ${lower}"
 
 
+# echo "Real Array: ${myVar}"
+# replace=${myVar/tahmid/tanim}
+# echo "Replaced Array: ${replace}"
 
-echo "Real Array: ${myVar}"
-replace=${myVar/tahmid/tanim}
-echo "Replaced Array: ${replace}"
+
+# Slicing method
+# echo "Real Array: ${myVar}"
+# slice=${myVar:0:7}
+# echo "Sliced Array: ${slice}"
+
